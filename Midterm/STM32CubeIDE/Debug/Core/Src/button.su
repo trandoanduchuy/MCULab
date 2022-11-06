@@ -1,0 +1,17 @@
+button.c:11:5:isButtonResetPressedNormal	4	static
+button.c:18:6:subKeyResetProcessNormal	4	static
+button.c:29:6:getKeyResetInput	8	static
+button.c:56:5:isButtonIncPressedNormal	4	static
+button.c:63:6:subKeyIncProcessNormal	4	static
+button.c:70:5:isButtonIncPressedLong3	4	static
+button.c:77:6:subKeyIncProcesslong3	4	static
+button.c:83:5:isButtonIncPressedLong1	4	static
+button.c:90:6:subKeyIncProcessLong1	4	static
+button.c:103:6:getKeyIncInput	8	static
+button.c:142:5:isButtonDecPressedNormal	4	static
+button.c:149:6:subKeyDecProcessNormal	4	static
+button.c:155:5:isButtonDecPressedLong3	4	static
+button.c:162:6:subKeyDecProcesslong3	4	static
+button.c:168:5:isButtonDecPressedLong1	4	static
+button.c:175:6:subKeyDecProcessLong1	4	static
+button.c:187:6:getKeyDecInput	8	static
