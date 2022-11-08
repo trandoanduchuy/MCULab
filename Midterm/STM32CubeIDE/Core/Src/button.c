@@ -64,7 +64,6 @@ void subKeyIncProcessNormal(){
 	ButtonIncNormal_flag = 1;
 }
 
-
 //Long Press 3
 int ButtonIncLong3_flag = 0;
 int isButtonIncPressedLong3(){

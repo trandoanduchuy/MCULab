@@ -34,7 +34,8 @@ void fsm_step2_run(){
 			else if(counter == 0) counter = 9;
 			setTimer1(10000);
 		}
-		//Long Press
+
+		// Long Press 1
 		if(isButtonIncPressedLong1() == 1){
 			status = SETTING2;
 			if(counter < 9) counter++;

@@ -17,9 +17,13 @@
 #define NORMAL_COUNTDOWN	56
 #define SETTING1			57
 #define SETTING2			58
+#define SETTING3 			59
+
+#define ON					77
+#define OFF 				78
 
 extern int status;
 extern int counter;
-
+extern int signal;
 
 #endif /* INC_GLOBAL_H_ */

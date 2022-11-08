@@ -27,6 +27,7 @@
 #include "display7seg.h"
 #include "fsm_step1.h"
 #include "fsm_step2.h"
+#include "blinky_led.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -100,13 +101,17 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   counter = 9;
   status = INIT;
+  signal = ON;
+  setTimer2(1000);
+  setTimer1(10000);
   while (1)
   {
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+	  blinky_led_run();
 	  fsm_step1_run();
-	  // fsm_step2_run();
+	  fsm_step2_run();
   }
   /* USER CODE END 3 */
 }

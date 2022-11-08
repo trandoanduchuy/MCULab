@@ -1,3 +1,4 @@
+"./Core/Src/blinky_led.o"
 "./Core/Src/button.o"
 "./Core/Src/display7seg.o"
 "./Core/Src/fsm_step1.o"
